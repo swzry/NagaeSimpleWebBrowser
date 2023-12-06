@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <StartupObject>NagaeSimpleWebBrowser.App</StartupObject>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ApplicationDefinition Remove="App.xaml" />
+    <Content Include="icon.ico" />
+    <Page Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.10" />
+    <PackageReference Include="MahApps.Metro.IconPacks.MaterialDesign" Version="4.11.0" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2151.40" />
+    <PackageReference Include="NBCP_clientLib_dotNet_v1" Version="1.0.0-alpha-20231207040801" />
+    <PackageReference Include="Tomlyn" Version="0.16.2" />
+  </ItemGroup>
+
+</Project>

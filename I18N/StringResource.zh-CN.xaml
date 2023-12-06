@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="ReattachDialog_Title">重新连接NBCP服务器</sys:String>
+    <Span x:Key="ReattachDialog_Msg">
+        <Run>至NBCP服务器的连接已断开。</Run>
+        <LineBreak />
+        <Run>是否重新连接？</Run>
+    </Span>
+    <sys:String x:Key="ReattachDialog_Ok">重新连接</sys:String>
+    <sys:String x:Key="ReattachDialog_Exit">退出</sys:String>
+</ResourceDictionary>
